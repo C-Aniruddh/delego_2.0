@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Delego</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="contact_exchange">Contact Exchange</string>
+    <string name="preferences">Preferences</string>
+    <string name="file_upload">File Upload</string>
+    <string name="feedback">Feedback</string>
+    <string name="all_delegates">All Delegates</string>
+    <string name="scan_qr">Scan QR</string>
+    <string name="view_feedbacks">View Feedbacks</string>
+    <string name="my_committee">My Committee</string>
+    <string name="attendance">Attendance</string>
+    <string name="view_uploads">View Uploads</string>
+    <string name="speaker_list">Speaker List</string>
+    <string name="logout">Logout</string>
+    <string name="add_to_speakers_list">Add to speakers list</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="food_pref_notify">Please note that lunch and breakfast preferences will change from day to day.</string>
+    <string name="food_pref_greet">Hi, Delegate Name! You can set your food preferences here!</string>
+</resources>

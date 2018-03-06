@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_preferences"
+        android:icon="@drawable/account_settings_variant"
+        android:title="@string/preferences" />
+
+    <item
+        android:id="@+id/navigation_scan_qr"
+        android:icon="@drawable/qrcode_scan"
+        android:title="@string/scan_qr" />
+
+    <item
+        android:id="@+id/navigation_file_upload_user"
+        android:icon="@drawable/folder_upload"
+        android:title="@string/file_upload" />
+
+    <item
+        android:id="@+id/navigation_feedback_user"
+        android:icon="@drawable/cloud_sync"
+        android:title="@string/feedback" />
+
+</menu>

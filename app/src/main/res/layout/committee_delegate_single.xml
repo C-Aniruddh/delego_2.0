@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/card_view_item_recycler_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/card_margin_horizontal_big_activity"
+    android:layout_marginStart="@dimen/card_margin_horizontal_big_activity"
+    android:layout_gravity="center_horizontal"
+    android:foregroundGravity="center"
+    android:background="@android:color/white"
+    android:foreground="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    card_view:cardCornerRadius="@dimen/card_recycler_corner_radius"
+    card_view:cardElevation="@dimen/card_recycler_elevation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/text_margin"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical">
+
+        <RelativeLayout
+            android:id="@+id/rela_round"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/text_margin"
+            android:background="@drawable/round"
+            android:backgroundTint="@color/gray_light"
+            android:transitionName="shareView" >
+
+            <ImageView
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:scaleType="fitXY"
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/thumbnail"
+                app:srcCompat="@drawable/account_multiple"
+                android:padding="8dp"/>
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/country_name"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_margin_very_small"
+            android:layout_toEndOf="@id/rela_round"
+            android:textColor="@android:color/black"
+            android:text="Country"
+            android:textSize="16sp"
+            android:textAllCaps="true"
+            android:layout_toRightOf="@id/rela_round" />
+        <TextView
+            android:id="@+id/delegate_name"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/country_name"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/rela_round"
+            android:text="Delegate Name"
+            android:textSize="14sp"
+            android:layout_toRightOf="@id/rela_round" />
+
+        <TextView
+            android:id="@+id/identifier"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/country_name"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/rela_round"
+            android:text="Delegate Name"
+            android:textSize="14sp"
+            android:visibility="invisible"
+            android:layout_toRightOf="@id/rela_round" />
+
+    </RelativeLayout>
+
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

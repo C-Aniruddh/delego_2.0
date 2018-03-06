@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_uploads"
+        android:icon="@drawable/folder_upload"
+        android:title="@string/view_uploads" />
+
+    <item
+        android:id="@+id/navigation_my_committee"
+        android:icon="@drawable/account_multiple"
+        android:title="@string/my_committee" />
+
+    <item
+        android:id="@+id/navigation_speaker_list"
+        android:icon="@drawable/nature_people"
+        android:title="@string/speaker_list" />
+
+    <item
+        android:id="@+id/navigation_contact_exchange_rap"
+        android:icon="@drawable/qrcode_scan"
+        android:title="@string/scan_qr" />
+
+</menu>

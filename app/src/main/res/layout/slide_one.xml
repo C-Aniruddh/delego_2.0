@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323232"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+    <TextView
+        fontPath="fonts/SanFranciscoDisplay-Thin.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Delego"
+        android:textSize="28sp"
+        android:textColor="@android:color/white"
+        tools:ignore="MissingPrefix" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/slideOneAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:lottie_fileName="animations/checked_loading.json" />
+
+    <TextView
+        fontPath="fonts/SanFranciscoDisplay-Thin.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Events Simplified!"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        tools:ignore="MissingPrefix" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FAFAFA</color>
+    <color name="colorPrimaryDark">#F5F5F5</color>
+    <color name="colorAccent">#3B5998</color>
+
+    <color name="gray_light">#CCCCCC</color>
+    <color name="gray_very_light">#E0E0E0</color>
+    <color name="gray_deep">#666666</color>
+    <color name="dialog_header">#424242</color>
+
+</resources>
